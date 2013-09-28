@@ -56,19 +56,28 @@ function significantSalesEvents(minValue,maxValue,current){
 }
 
 
-var monthSalesData = [];
-monthSalesData[0]=120;    //current month
-monthSalesData[1]=130;    //current month -1
-monthSalesData[2]=140;    //current month -2
-monthSalesData[3]=150;    //current month -3
-var expectedSalesIncrease = .03;
-var currentSales = 150;
+//function spanishClass(jose,isSpanishClass){
+//    var result;
+//    if(isSpanishClass){
+//       result='It is spanish class please refer to me as Jose.'
+//    }
+//    else {result= jose;}
+//
+//    return result;
+//
+//}
+//
+//
+//
+//
+//
+//var joe='Joseph Dalton';
+//
+//console.log(joe);
+//
+//console.log(spanishClass(joe,true));
+//
 
-console.log(salesAverage(monthSalesData));
 
-console.log('The Forecast '+ saleForecast(expectedSalesIncrease,salesAverage(monthSalesData)));
-console.log(currentSales,salesAverage(monthSalesData));
-console.log(max(monthSalesData));
-console.log(min(monthSalesData));
-console.log(significantSalesEvents(min(monthSalesData),max(monthSalesData),monthSalesData[0]));
+
 

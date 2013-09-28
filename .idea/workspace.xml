@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22112e54-a782-4739-b003-e6d904cb1304" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIProject.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/GradingQuiz/ConditionalsGrading.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/BIProject/functions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grading.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/lecture6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JS/Lect2.js" afterPath="$PROJECT_DIR$/JS/WPFClassNotes/Lect2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JS/Lect3.js" afterPath="$PROJECT_DIR$/JS/WPFClassNotes/Lect3.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JS/initial.js" afterPath="$PROJECT_DIR$/JS/WPFClassNotes/initial.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JS/rosePassWordProblem.js" afterPath="$PROJECT_DIR$/JS/WPFClassNotes/rosePassWordProblem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/gameFunctions.js" afterPath="$PROJECT_DIR$/JS/gameFunctions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/landGen.js" afterPath="$PROJECT_DIR$/JS/landGen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/BIProject/calculation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BIProject.html" afterPath="$PROJECT_DIR$/BIProject.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JS/BIProject/functions.js" afterPath="$PROJECT_DIR$/JS/BIProject/functions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wpfExampleGame.iws" />
@@ -29,8 +19,9 @@
     <file path="/wacky.js" changelist="22112e54-a782-4739-b003-e6d904cb1304" time="1380144629129" ignored="false" />
     <file path="/test.js" changelist="22112e54-a782-4739-b003-e6d904cb1304" time="1380146136810" ignored="false" />
     <file path="$PROJECT_DIR$/../../../Student Git Repos/0913-AntonioFigueroa/Expressions_Industry/js/script.js" changelist="22112e54-a782-4739-b003-e6d904cb1304" time="1380304607205" ignored="false" />
-    <file path="/functions.js" changelist="22112e54-a782-4739-b003-e6d904cb1304" time="1380326258767" ignored="false" />
-    <file path="/BIProject.html" changelist="22112e54-a782-4739-b003-e6d904cb1304" time="1380318467009" ignored="false" />
+    <file path="/functions.js" changelist="22112e54-a782-4739-b003-e6d904cb1304" time="1380404221892" ignored="false" />
+    <file path="/BIProject.html" changelist="22112e54-a782-4739-b003-e6d904cb1304" time="1380404623040" ignored="false" />
+    <file path="/calculation.js" changelist="22112e54-a782-4739-b003-e6d904cb1304" time="1380407128928" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +41,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="functions.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="functions.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS/BIProject/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="10" selection-start="220" selection-end="1945" vertical-scroll-proportion="0.93697476">
+            <state line="33" column="20" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BIProject.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BIProject.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="20" selection-start="50" selection-end="50" vertical-scroll-proportion="-1.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calculation.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS/BIProject/calculation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="55" selection-start="2901" selection-end="2901" vertical-scroll-proportion="0.50784594">
+              <folding>
+                <element signature="e#0#156#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../../../Student Git Repos/0913-DiogoCabral/WPF_Class/Assignments/expressions_assignment/js/expressions.js" />
         <option value="$PROJECT_DIR$/../../../Student Git Repos/0913-DiogoCabral/WPF_Class/Assignments/expressions_assignment/js/wacky.js" />
         <option value="$PROJECT_DIR$/../../../Student Git Repos/0913-AntonioFigueroa/Expressions_Industry/js/script.js" />
         <option value="$PROJECT_DIR$/../../../Student Git Repos/0913-AntonioFigueroa/Expressions Wacky/js/script.js" />
@@ -86,13 +96,14 @@
         <option value="$PROJECT_DIR$/../../../Student Git Repos/0913-KareemBeazer/ASSIGNMENTS/CONDITIONALS/CONDITIONALS_INDUSTRY/js/initial.js" />
         <option value="$PROJECT_DIR$/../../../Student Git Repos/0913-AntonioFigueroa/Conditionals_Personal/js/script.js" />
         <option value="$PROJECT_DIR$/../../../Student Git Repos/0913-KareemBeazer/ASSIGNMENTS/FUNCTIONS/FUNCTIONS_INDUSTRY/js/testFile.js" />
-        <option value="$PROJECT_DIR$/BIProject.html" />
-        <option value="$PROJECT_DIR$/JS/BIProject/functions.js" />
         <option value="$PROJECT_DIR$/../../../Student Git Repos/0913-KareemBeazer/ASSIGNMENTS/FUNCTIONS/FUNCTIONS_PERSONAL/js/initial.js" />
         <option value="$PROJECT_DIR$/../../../Student Git Repos/0913-KareemBeazer/ASSIGNMENTS/FUNCTIONS/FUNCTIONS_WACKY/js/initial.js" />
         <option value="$PROJECT_DIR$/../../../Student Git Repos/0913-KareemBeazer/ASSIGNMENTS/FUNCTIONS/FUNCTIONS_INDUSTRY/js/initial.js" />
         <option value="$PROJECT_DIR$/../../../Student Git Repos/0913-AntonioFigueroa/Functions Industry/js/script.js" />
         <option value="$PROJECT_DIR$/../../../Student Git Repos/0913-AntonioFigueroa/Functions Personal/js/script.js" />
+        <option value="$PROJECT_DIR$/JS/BIProject/functions.js" />
+        <option value="$PROJECT_DIR$/BIProject.html" />
+        <option value="$PROJECT_DIR$/JS/BIProject/calculation.js" />
       </list>
     </option>
   </component>
@@ -229,7 +240,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26076743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26076743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -305,20 +316,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../Student Git Repos/0913-WestinSchepper/Functions_Assignment/Functions_Personal/JS/Initial.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Student Git Repos/0913-WestinSchepper/Functions_Assignment/Functions_Wacky/JS/Initial.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../Student Git Repos/0913-GabrielFerraz/Functions_Wacky/JS/initial1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -414,8 +411,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/BIProject/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="10" selection-start="220" selection-end="1945" vertical-scroll-proportion="0.93697476">
+        <state line="33" column="20" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BIProject.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="20" selection-start="50" selection-end="50" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/BIProject/calculation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="55" selection-start="2901" selection-end="2901" vertical-scroll-proportion="0.50784594">
+          <folding>
+            <element signature="e#0#156#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
