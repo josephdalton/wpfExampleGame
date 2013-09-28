@@ -5,6 +5,8 @@
  * Time: 6:35 PM
  * To change this template use File | Settings | File Templates.
  */
+
+
 function landSelection(){
     var initValue= Math.random()*10;
     // console.log(initValue);
@@ -73,4 +75,20 @@ function worldGen() {
     }
     return world;
 
+}
+
+
+
+function presentWorld(){
+    console.clear();
+    var worldPresentationString ='';
+    for(outer=0;outer<10;outer++){
+        worldPresentationString ='';
+        for(inner=0;inner<10;inner++){
+            worldPresentationString+=world[outer][inner];
+            worldPresentationString+=tabGen(world[outer][inner].length);
+        }
+        console.log(worldPresentationString);
+
+    }
 }

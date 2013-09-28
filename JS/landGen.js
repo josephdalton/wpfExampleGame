@@ -9,23 +9,21 @@
 
 var world = worldGen();
 
-var worldPresentationString ='';
-for(outer=0;outer<10;outer++){
-    worldPresentationString ='';
-    for(inner=0;inner<10;inner++){
-        worldPresentationString+=world[outer][inner];
-        worldPresentationString+=tabGen(world[outer][inner].length);
-    }
-    console.log(worldPresentationString);
-
-}
-
 //character initial position
-var xPos=0;
-var yPos=0;
+var xPos=0;         //initial position x
+var yPos=0;         //initial position y
 var endCondition = true;
+var oldPosition =world[yPos][xPos];
+world[yPos][xPos] ='*' +world[yPos][xPos]+'*';
+presentWorld();
 //Movement through our arrays
+
+
+
+
 do {
+
+    world[yPos][xPos]=oldPosition;
     var movement= prompt('Move your character which direction (N,S,E,W,Q)');
     if(movement=='N' || movement =='n'){yPos--;}
     if(movement=='S' || movement =='s'){yPos++;}
@@ -37,13 +35,11 @@ do {
     if(yPos==-1){yPos = 9}
     if(xPos==10){xPos = 0}
     if(yPos==10){yPos = 0}
+    //console.log(world[yPos][xPos]);
 
-    console.log(world[yPos][xPos]);
-
-
-
-
-
+    oldPosition= world[yPos][xPos];
+    world[yPos][xPos] = '*' +world[yPos][xPos]+'*';
+    presentWorld();
 
 
 }
